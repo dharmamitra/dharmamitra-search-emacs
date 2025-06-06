@@ -30,6 +30,48 @@ Chinese · Pāli) returned by Dharmamitra's semantic-search API.
 ---
 
 ## ⏳ Installation
+<details>
+<summary><tt>Manual Installation</tt></summary>
+
+If you don’t use a package manager like <code>straight.el</code>, you can install <code>dharmamitra-search.el</code> manually in just a few steps:
+
+1. **Download the file**
+
+   Clone the repository or download `dharmamitra-search.el` directly from:
+
+   ```
+   https://raw.githubusercontent.com/dharmamitra/dharmamitra-search-emacs/main/dharmamitra-search.el
+   ```
+
+   Place it in a directory of your choice, for example:
+
+   ```sh
+   mkdir -p ~/.emacs.d/lisp/
+   cp dharmamitra-search.el ~/.emacs.d/lisp/
+   ```
+
+2. **Add it to your load path**
+
+   In your `.emacs` or `init.el` file:
+
+   ```elisp
+   (add-to-list 'load-path "~/.emacs.d/lisp/")
+   (require 'dharmamitra-search)
+   ```
+
+3. **Bind the search command to a key**
+
+   You can customize this as you like. For example:
+
+   ```elisp
+   (global-set-key (kbd "C-c C-d") #'dharmamitra-search-region)
+   ```
+
+4. **Optional: Customize settings**
+
+   Run `M-x customize-group RET dharmamitra-search RET` to adjust the API endpoint or appearance.
+
+</details>
 
 <details>
 <summary><tt>straight.el</tt> / <tt>use-package</tt></summary>
