@@ -39,7 +39,7 @@ Chinese · Pāli) returned by Dharmamitra's semantic-search API.
   :straight (dharmamitra-search
              :type git
              :host github
-             :repo "your-github-name/dharmamitra-search")
+             :repo "https://github.com/dharmamitra/dharmamitra-search-emacs")
   :bind ("C-c C-d" . dharmamitra-search-region))
 
 ```
