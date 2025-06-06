@@ -4,7 +4,7 @@
 > [dharmamitra.org](https://dharmamitra.org) corpus — right from Emacs.**
 
 `dharmamitra-search.el` lets you highlight _any_ text in any buffer, hit a
-single key, and instantly browse cross-lingual parallels (Sanskrit · Tibetan · 
+single key, and instantly browse cross-lingual search results (Sanskrit · Tibetan · 
 Chinese · Pāli) returned by Dharmamitra's semantic-search API.
 
 <table><tr><td>
