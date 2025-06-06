@@ -13,7 +13,7 @@ Chinese · Pāli) returned by Dharmamitra's semantic-search API.
 
 </td></tr></table>
 
-*(screencast: mark text → `C-c C-d` → clickable results window)*
+*(screenshot: mark text → `C-c C-d` → clickable results window)*
 
 ---
 
